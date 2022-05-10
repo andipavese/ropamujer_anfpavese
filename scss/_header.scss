@@ -1,0 +1,38 @@
+.navbar {
+    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+    padding: 25px;
+    border-bottom: 20px black
+}
+.navbar .logo {
+    width: 100px;
+    height: auto;
+    grid-column: 1 / 2;
+}
+.navbar .logo:hover{
+    color: rosybrown;
+}
+.navbar .menu {
+    grid-column: 3 / 7;
+    display: flex;
+    justify-content: space-around;
+}
+.navbar .menu li {
+    list-style: none;
+}
+.navbar .menu li :hover {
+    color: bisque;
+}
+.navbar .menu a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.navbar .menu-bar {
+    display: none;
+}
+.navbar .shopping {
+    grid-column: 8 / 9;
+}

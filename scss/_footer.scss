@@ -1,0 +1,22 @@
+.footer {
+    display: grid;
+    height: 80px;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: center;
+    background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
+    color: #fff;
+}
+.footer .redes__titulo{
+    grid-column: 2 / 3;
+}
+.footer .redes__img{
+    grid-column: 3 / 7;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer .creado{
+    grid-column: 7 / 9;
+}
+.footer .redes__img .fa-brands{
+    color: #fff;
+}
